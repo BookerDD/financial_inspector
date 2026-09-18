@@ -1,0 +1,7 @@
+financial_inspector 0.01:
+- Проект создан. Создана структура проекта, добавлены первоначальные docker-compose файлы;
+- Созданы sql-скрипты с созданием схем и таблиц;
+- Создан даг, который запускает sql-скрипты;
+- Добавлен README с инструкцией по запуску;
+- Создан скрипт 01-create-databases.sh, который создаёт три бд: airflow, superset и analytics;
+- Добавлены .env.example, .gitignore, .dockerignore, .gitattributes;

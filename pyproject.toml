@@ -1,0 +1,13 @@
+[project]
+name = "financial-inspector"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11, <3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "apache-airflow==2.11.2",
+    "apache-airflow-providers-postgres>=7.0.2",
+]
